@@ -1,7 +1,7 @@
 import { SignIn, SignUp, UserButton } from '@clerk/nextjs';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
-import NavBar from '@/components/nav';
+import NavBar from '@/components/navbar';
 
 export default function RootLayout({
   children,
