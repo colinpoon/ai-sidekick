@@ -28,7 +28,7 @@ const displayFont = Barlow({
 
 export default function NavBar() {
   return (
-    <div className="fixed w-full z-50 flex justify-between items-center p-4 bg-secondary h-16">
+    <div className="fixed w-full z-50 flex justify-between items-center p-4 bg-secondary h-20">
       <div className="flex items-center">
         {/* <Menu className="block md:hidden" /> */}
         <MobileSidebar />
