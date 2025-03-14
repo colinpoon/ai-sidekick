@@ -6,14 +6,6 @@ import Link from 'next/link';
 
 import { cn } from '@/lib/utils';
 import { Button } from './ui/button';
-import {
-  Sheet,
-  SheetContent,
-  SheetDescription,
-  SheetHeader,
-  SheetTitle,
-  SheetTrigger,
-} from '@/components/ui/sheet';
 import { ModeToggle } from './mode-toggle';
 import { MobileSidebar } from './mobile-sidebar';
 
@@ -35,7 +27,7 @@ export default function NavBar() {
         <Link href="/">
           <h1
             className={cn(
-              'hidden md:block text-xl md:text-xl font-extrabold text-primary',
+              'hidden md:block text-xl md:text-2xl font-extrabold text-primary',
               // textFont.className
               displayFont.className
               // dynamic class name
